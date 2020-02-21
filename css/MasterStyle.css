@@ -1,0 +1,132 @@
+:root {
+	--color-1: #fdb44b;
+	--color-2: #00bbf0;
+	--color-3: #005792;
+	--color-4: #00204a;
+
+	--color-neutral-1: black;
+	--color-neutral-2: white;
+	--color-neutral-3: transparent;
+	
+	--font-family-1: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", serif;
+	--font-family-2: "Impact", "Charcoal", sans-serif;
+
+	--margin-1: 10px;
+	--margin-2: 20px;
+	--margin-3: 50px;
+}
+
+/*
+var(--color-1);
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", serif;
+}
+
+a {
+	color: var(--color-neutral-1);
+	text-decoration: none;
+}
+
+main {
+	flex: 1;
+}
+
+.PageBox {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.ErrorDisplay {
+	color: red;
+	font-size: .85em;
+	font-style: italic;
+}
+
+.BorderButton1 {
+	background-color: var(--color-neutral-3);
+	border: solid thin var(--color-1);
+	color: var(--color-1);
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+.BorderButton1:hover {
+	background-color: var(--color-1);
+	border: solid thin var(--color-1);
+	color: var(--color-neutral-1);
+	font-weight: bold;
+	transition: 300ms;
+}
+
+.BorderButton2 {
+	background-color: var(--color-neutral-3);
+	border: solid thin var(--color-2);
+	color: var(--color-2);
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+.BorderButton2:hover {
+	background-color: var(--color-2);
+	border: solid thin var(--color-2);
+	color: var(--color-neutral-2);
+	font-weight: bold;
+	transition: 300ms;
+}
+
+.BorderButton3 {
+	background-color: var(--color-neutral-3);
+	border: solid thin var(--color-neutral-2);
+	color: var(--color-neutral-2);
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+.BorderButton3:hover {
+	background-color: var(--color-neutral-2);
+	border: solid thin var(--color-neutral-2);
+	color: var(--color-neutral-1);
+	font-weight: bold;
+	transition: 300ms;
+}
+
+.BorderButton4 {
+	background-color: var(--color-neutral-3);
+	border: solid thin var(--color-neutral-1);
+	color: var(--color-neutral-1);
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+.BorderButton4:hover {
+	background-color: var(--color-neutral-1);
+	border: solid thin var(--color-neutral-1);
+	color: var(--color-neutral-2);
+	font-weight: bold;
+	transition: 300ms;
+}
+
+.SolidButton1 {
+	background-color: var(--color-1);
+	border: solid thin var(--color-1);
+	color: var(--color-neutral-1);
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 10px;	
+}
+.SolidButton1:hover {
+	background-color: var(--color-neutral-3);
+	border: solid thin var(--color-1);
+	color: var(--color-1);
+	font-weight: bold;
+	transition: 300ms;
+}

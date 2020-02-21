@@ -1,0 +1,87 @@
+footer {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-size: .95em;
+	justify-content: center;
+	letter-spacing: 1.25px;
+	overflow: hidden;
+	padding: 0 50px 30px 50px;
+	position: relative;
+	width: 100%;
+}
+
+.SocialConnectAndPaymentType {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px 20px 30px 20px;
+	width: 100%;
+}
+
+.SocialConnectAndPaymentType a {
+	border: solid thin var(--color-1);
+	border-radius: 2px;
+	height: 45px;
+	margin: 0 10px;
+	padding: 3px;
+	width: 45px;
+}
+
+.SocialConnectAndPaymentType img {
+	height: 100%;
+	object-fit: contain;
+	width: 100%;
+}
+
+.SocialConnectAndPaymentType div {
+	background-color: var(--color-1);
+	height: 100%;
+	margin: 0 20px;
+	transform: skewX(-20deg);			
+}
+
+.FooterInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: var(--margin-3);
+	width: 100%;
+}
+
+.FooterInfo h3 {
+	font-family: var(--font-family-2);
+	margin-bottom: 15px;
+}
+
+.FooterInfo a {
+	display: block;
+	margin-bottom: 7px;
+}
+
+.FooterInfo a:hover {
+	text-decoration: underline;
+}
+
+.FooterDesignLeft {
+	background-color: var(--color-1);
+	left: -5%;
+	height: 115%;
+	position: absolute;
+	transform: skewX(-20deg);
+	width: 10%;
+}
+
+.FooterDesignRight {
+	background-color: var(--color-1);
+	right: -5%;
+	height: 115%;
+	position: absolute;
+	transform: skewX(20deg);
+	width: 10%;
+}
+
+.Copyright {
+	font-weight: bold;
+}
