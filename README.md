@@ -1,6 +1,6 @@
 # GeekStyleClothingSite
  
-<img src="images/GeekStyleClothing2.png" width="100%" height="auto" />
+<img src="images/GeekStyleClothing2.png" width="75%" height="auto" />
 
 <div style="display: grid;">
      <img src="images/GeekStyleClothingSite-ProductPage.png" width="30%" height="auto" />
